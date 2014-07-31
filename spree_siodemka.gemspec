@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_siodemka'
-  s.version     = '2.3'
+  s.version     = '2.2'
   s.summary     = 'Spree extenstion for Siodemka WebService7'
   s.required_ruby_version = '>= 1.9.3'
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3'
+  s.add_dependency 'spree_core', '~> 2.2'
   s.add_dependency 'savon', '~> 2.6.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
